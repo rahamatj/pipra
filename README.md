@@ -1,6 +1,6 @@
-# PHP MVC CRUD
+# Pipra
 
-This is a PHP CRUD following the MVC architectural pattern.
+This is a small PHP framework following the MVC architectural pattern.
 
 ## Feature list
 
@@ -13,9 +13,9 @@ This is a PHP CRUD following the MVC architectural pattern.
 
 ## Installation Instructions
 
-* ```git clone https://github.com/rahamatj/php-mvc-crud.git```
-* ```cd php-mvc-crud```
-* Create a database called ```php_mvc_crud```
+* ```composer create-project raham/pipra my-app```
+* ```cd my-app```
+* Create a database called ```test```
 * Rename ```config/database.example.php``` to ```config/database.php```
 (```mv config/database.example.php config/database.php```)
 * Change database configurations in ```config/database.php``` if necessary.
