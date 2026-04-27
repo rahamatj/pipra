@@ -1,6 +1,6 @@
-# Pipra
+# PHP MVC CRUD
 
-This is a small PHP framework following the MVC architectural pattern.
+This is a PHP CRUD following the MVC architectural pattern.
 
 ## Feature list
 
@@ -13,9 +13,9 @@ This is a small PHP framework following the MVC architectural pattern.
 
 ## Installation Instructions
 
-* ```composer create-project raham/pipra my-app```
-* ```cd my-app```
-* Create a database called ```test```
+* ```composer create-project raham/pipra pipra```
+* ```cd pipra```
+* Create a database
 * Rename ```config/database.example.php``` to ```config/database.php```
 (```mv config/database.example.php config/database.php```)
 * Change database configurations in ```config/database.php``` if necessary.
